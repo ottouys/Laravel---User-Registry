@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    border-radius: 0px;
+
+    &-dark{
+        background-color: black;        
+    }
+
+    &-secondary{
+
+    }
+}
+
+#userLoader{
+    img{
+        max-height: 50px;
+        margin:auto;
+    }
+}
+
+// User Listing
+#user-listing{
+    #users{
+        border:none;
+
+        .user-item{
+            padding:10px 15px;
+            background-color:#ebebeb;  
+            border:none;
+    
+            &:nth-of-type(2n){
+                background-color:#fff;
+            }      
+            
+            .name{
+                padding-left: 30px;
+            }
+    
+            .delete{
+                margin-left:auto;
+                text-align: center;
+    
+                button{
+                    background-color:transparent;
+                    color:red;
+                    border:none;
+                    line-height: 1;
+                    padding: 0px;
+    
+                    &:focus{
+                        border:none;
+                        background-color:transparent;
+                        box-shadow:unset;
+                    }
+                }
+            }
+        }
+    }
+    
+}
